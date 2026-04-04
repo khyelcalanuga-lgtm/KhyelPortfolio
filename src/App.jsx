@@ -1,0 +1,25 @@
+import React from "react";
+import { Routes, Route } from 'react-router-dom';
+import Bar from "./Components/Navbar/Navbar";
+import Hero from "./pages/Homepage/Homepage";
+import About from "./pages/About/About";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Products from "./pages/Products/Products";
+import Footer from "./Components/footer/Footer";
+
+const App = () => {
+  return (
+    <div>
+      <Bar />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio/*" element={<Portfolio />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
+      <Footer />
+    </div>
+  )
+}
+
+export default App

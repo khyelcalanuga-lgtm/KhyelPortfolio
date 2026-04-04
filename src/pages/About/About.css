@@ -1,0 +1,233 @@
+.contents2 {
+    width: 85%;
+    max-width: 1620px;
+    margin: 0 auto;
+    padding-top: 136px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 26px;
+    box-sizing: border-box;
+}
+
+.firstRowFixer {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.profileSec .SocialsTitle p {
+    font-size: 20px;
+    padding-bottom: 26px;
+}
+
+.firstColumn2 {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.firstRow2 {
+    width: 100%;
+    max-width: 642px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1E1E;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+}
+
+.firstRow2 p {
+    font-size: 32px;
+}
+
+.contents2 .verifyIcon {
+    width: 26px;
+    height: 26px;
+    margin-right: 0;
+}
+
+.profileSec .name {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.firstRowColumn2 {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.secondRow2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+}
+
+.secondRow2 p {
+    font-size: 20px;
+    padding-bottom: 26px;
+}
+
+.aboutMeDes p {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.fixer {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    flex: 1;
+}
+
+.firstcol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #1E1E1E;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+}
+
+.firstcol hr {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.secondcol {
+    width: 50%;
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    border-radius: 50px;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+}
+
+.secondcol2div {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.keySkillsTitle p {
+    font-size: 20px;
+    padding-bottom: 26px;
+}
+
+.skillsThis {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skillsThis p {
+    font-size: 16px;
+}
+
+.skillsThis hr {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.SocialsTitle img {
+    width: 50px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #1E1E1E;
+    padding: 20px 40px;
+    border-radius: 25px;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+    color: aliceblue;
+}
+
+.logos path {
+    fill: #797979;
+}
+
+.logos img {
+    filter: brightness(0) invert(1);
+    width: 30px;
+}
+
+@media (max-width: 768px) {
+    .contents2 {
+        flex-direction: column;
+        padding-top: 100px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .firstColumn2,
+    .firstRowColumn2,
+    .secondcol2div,
+    .firstRowFixer,
+    .fixer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .firstRow2,
+    .firstcol,
+    .secondcol,
+    .secondRow2 {
+        width: 100%;
+        max-width: none;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+
+    .firstRow2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .firstRow2 p {
+        font-size: 24px;
+    }
+
+    .profileSec .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .aboutMeDes p {
+        font-size: 14px;
+    }
+}

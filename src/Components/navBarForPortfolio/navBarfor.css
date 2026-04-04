@@ -1,0 +1,111 @@
+.header2 {
+    width: fit-content;
+    position: relative;
+    top: 26px;
+    padding-bottom: 26px;
+    left: 50vw;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    z-index: 1;
+}
+
+.navbar2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+.nav-links2 {
+    background-color: #1e1e1e00;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    border-radius: 999px;
+}
+
+.nav-selection2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 999px;
+    background-color: #454545;
+    transition:
+        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.35s ease;
+    pointer-events: none;
+}
+
+.nav-selection2::before {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+
+}
+
+.nav-links2 button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font: inherit;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 999px;
+    background: transparent;
+    z-index: 1;
+    transition: color 0.28s ease, transform 0.28s ease;
+}
+
+.nav-links2 button:hover {
+    color: rgba(148, 148, 148, 0.92);
+    transform: translateY(0px);
+}
+
+.nav-links2 button:focus-visible {
+    color: #ffffff;
+}
+
+.nav-links2 button.is-active {
+    color: #ffffff;
+}
+
+
+.contactLogo img {
+    width: 30px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .header2 {
+        top: 1px;
+        padding-bottom: 1px;
+        width: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-links2 {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .nav-links2 button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}

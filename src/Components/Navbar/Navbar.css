@@ -1,0 +1,155 @@
+.header {
+    width: fit-content;
+    position: fixed;
+    top: 26px;
+    left: 50vw;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    z-index: 1000;
+}
+
+.navbar {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: rgb(30, 30, 30, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+    box-shadow:
+        0 0px 20px rgba(0, 0, 0, 0.5),
+        inset 0 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+    background-color: #1e1e1e00;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    border-radius: 999px;
+}
+
+.nav-selection {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #616161;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #454545, #313131);
+    transition:
+        transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        width 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        height 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.35s ease;
+    pointer-events: none;
+}
+
+.nav-selection::before {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+
+}
+
+.nav-links button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font: inherit;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 999px;
+    background: transparent;
+    z-index: 1;
+    transition: color 0.28s ease, transform 0.28s ease;
+}
+
+.nav-links button:hover {
+    color: rgba(148, 148, 148, 0.92);
+    transform: translateY(0px);
+}
+
+.nav-links button:focus-visible {
+    color: #ffffff;
+}
+
+.nav-links button.is-active {
+    color: #ffffff;
+}
+
+.contactLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(30, 30, 30, 0.5);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-radius: 100px;
+    padding: 40px 55px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #383838;
+}
+
+.contactLogo img {
+    width: 30px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .header {
+        top: 16px;
+        flex-direction: row;
+        gap: 5px;
+        width: 95%;
+        justify-content: center;
+    }
+
+    .navbar {
+        padding: 5px;
+        flex: 1;
+        max-width: 80%;
+    }
+
+    .nav-links {
+        gap: 2px;
+        width: 100%;
+    }
+
+    .nav-links button {
+        padding: 13px 8px;
+        font-size: 15px;
+        flex: 1;
+    }
+
+    .contactLogo {
+        padding: 14px 15px;
+        width: auto;
+        height: auto;
+    }
+
+    .contactLogo img {
+        width: 20px;
+    }
+}
