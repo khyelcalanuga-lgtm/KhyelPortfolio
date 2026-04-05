@@ -5,7 +5,11 @@ import buttOil1 from '../../../../assets/ProductRendering/1.png'
 import buttOil2 from '../../../../assets/ProductRendering/2.png'
 import buttOil3 from '../../../../assets/ProductRendering/3.png'
 import wireframe from '../../../../assets/ProductRendering/wireframe.png'
-import 
+import Cup from '../../../../assets/3D Projects/Cup.png'
+import Apple from '../../../../assets/3D Projects/apple.png'
+import Lykan from '../../../../assets/3D Projects/LykanHyperSport.png'
+import Lykan2 from '../../../../assets/3D Projects/LykanHyperSport2.png'
+import Wine from '../../../../assets/3D Projects/Wine.png'
 
 const DDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
@@ -35,13 +39,13 @@ const DDesign = () => {
                 <div className="galleryPoster2">
                     <p>Food Poster</p>
                     <div className="posterGal2">
-                        <img src={bodyScrub} alt="Burger 2" onClick={() => openModal(bodyScrub)} />
-                        <img src={buttOil1} alt="Tempura Poster" onClick={() => openModal(buttOil1)} />
-                        <img src={buttOil2} alt="Royal Poster" onClick={() => openModal(buttOil2)} />
+                        <img src={Cup} alt="Burger 2" onClick={() => openModal(Cup)} />
+                        <img src={Apple} alt="Tempura Poster" onClick={() => openModal(Apple)} />
+                        <img src={Lykan} alt="Royal Poster" onClick={() => openModal(Lykan)} />
                     </div>
                     <div className="posterGal3">
-                        <img src={buttOil3} alt="Burger " onClick={() => openModal(buttOil3)} />
-                        <img src={wireframe} alt="Tempura Poster" onClick={() => openModal(wireframe)} />
+                        <img src={Lykan2} alt="Burger " onClick={() => openModal(Lykan2)} />
+                        <img src={Wine} alt="Tempura Poster" onClick={() => openModal(Wine)} />
                     </div>
                 </div>
             </div>
