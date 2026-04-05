@@ -3,7 +3,7 @@ import './About.css'
 import verifyIcon from '../../assets/verify-svgrepo-com.svg'
 import Instagram from '../../assets/SocialIcons/instagram.svg'
 import Facbook from '../../assets/SocialIcons/facebook.svg'
-import LinkedIn from '../../assets/SocialIcons/linkedIn.svg'
+import LinkedIn from '../../assets/SocialIcons/linkedin.svg'
 import GitHub from '../../assets/SocialIcons/github.svg'
 
 const About = () => {
