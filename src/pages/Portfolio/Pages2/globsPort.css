@@ -159,6 +159,7 @@
 @media (max-width: 768px) {
     .contentsGD {
         width: 95%;
+        padding-top: 6px;
     }
 
     .posterGal,

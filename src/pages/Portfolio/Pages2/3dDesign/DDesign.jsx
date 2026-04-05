@@ -37,7 +37,7 @@ const DDesign = () => {
                     </div>
                 </div>
                 <div className="galleryPoster2">
-                    <p>Food Poster</p>
+                    <p>Projects</p>
                     <div className="posterGal2">
                         <img src={cup} alt="Burger 2" onClick={() => openModal(cup)} />
                         <img src={Apple} alt="Tempura Poster" onClick={() => openModal(Apple)} />

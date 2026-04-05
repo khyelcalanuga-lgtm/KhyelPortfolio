@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Homepage.css'
 import profilePic from '../../assets/profilePicture.png'
 import verifyIcon from '../../assets/verify-svgrepo-com.svg'
 
 const Hero = () => {
+    const navigate = useNavigate();
+
     return (
         <div className="contents" id="home">
             <div className="firstColumn">
@@ -78,13 +80,16 @@ const Hero = () => {
                     </div>
                     <div className="categoryBut">
                         <div className="graphBut">
-                            <button type="button">Graphic Design</button>
+                            <button type="button" onClick={() => navigate('/portfolio/GraphicDesign')}>Graphic Design</button>
                         </div>
                         <div className="graphBut">
-                            <button type="button">3D Design</button>
+                            <button type="button" onClick={() => navigate('/portfolio/3dDesign')}>3D Design</button>
                         </div>
                         <div className="graphBut">
-                            <button type="button">UI/UX (Figma)</button>
+                            <button type="button" onClick={() => navigate('/portfolio/UI-UX')}>Figma</button>
+                        </div>
+                        <div className="graphBut">
+                            <button type="button" onClick={() => navigate('/portfolio/Websites')}>Website</button>
                         </div>
                     </div>
                 </div>
@@ -94,10 +99,10 @@ const Hero = () => {
                     </div>
                     <div className="categoryBut">
                         <div className="graphBut">
-                            <button type="button">Templates</button>
+                            <button type="button" onClick={() => navigate('/products')}>Templates</button>
                         </div>
                         <div className="graphBut">
-                            <button type="button">3D Models</button>
+                            <button type="button" onClick={() => navigate('/products')}>3D Models</button>
                         </div>
                         <div className="noneBut">
                             <button type="button">UI/UX (Figma)</button>

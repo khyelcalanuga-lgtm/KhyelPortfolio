@@ -1,19 +1,14 @@
 .header2 {
-    width: fit-content;
-    position: relative;
-    top: 26px;
-    padding-bottom: 26px;
-    left: 50vw;
-    transform: translateX(-50%);
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 26px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     z-index: 1;
 }
 
 .navbar2 {
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,11 +87,9 @@
 
 @media (max-width: 768px) {
     .header2 {
-        top: 1px;
+        padding-top: 1px;
         padding-bottom: 1px;
-        width: 95%;
-        left: 50%;
-        transform: translateX(-50%);
+        width: 100%;
     }
 
     .nav-links2 {
