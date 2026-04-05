@@ -18,7 +18,7 @@ const About = () => {
                                 <img className="verifyIcon" src={verifyIcon} alt="Verified" />
                             </div>
                             <div className="title">
-                                <p>Freelance Graphic Designer | 3D Graphic Designer |<br />Web Developer</p>
+                                <p>Freelance Graphic Designer | 3D Graphic Designer | Web Developer</p>
                             </div>
                             <div className="location">
                                 <p>Marikina, National Capital Region, Philippines</p>
