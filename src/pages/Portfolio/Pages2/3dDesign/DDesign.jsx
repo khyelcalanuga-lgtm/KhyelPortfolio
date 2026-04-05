@@ -5,11 +5,11 @@ import buttOil1 from '../../../../assets/ProductRendering/1.png'
 import buttOil2 from '../../../../assets/ProductRendering/2.png'
 import buttOil3 from '../../../../assets/ProductRendering/3.png'
 import wireframe from '../../../../assets/ProductRendering/wireframe.png'
-import cup from '../../../../assets/3D Projects/cup.png'
-import Apple from '../../../../assets/3D Projects/apple.png'
-import Lykan from '../../../../assets/3D Projects/LykanHyperSport.png'
-import Lykan2 from '../../../../assets/3D Projects/LykanHyperSport2.png'
-import Wine from '../../../../assets/3D Projects/Wine.png'
+import cup from '../../../../assets/3D-Projects/cup.png'
+import Apple from '../../../../assets/3D-Projects/apple.png'
+import Lykan from '../../../../assets/3D-Projects/LykanHyperSport.png'
+import Lykan2 from '../../../../assets/3D-Projects/LykanHyperSport2.png'
+import Wine from '../../../../assets/3D-Projects/Wine.png'
 
 const DDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
