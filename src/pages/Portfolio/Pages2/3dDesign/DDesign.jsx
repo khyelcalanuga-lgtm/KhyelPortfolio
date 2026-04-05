@@ -5,7 +5,7 @@ import buttOil1 from '../../../../assets/ProductRendering/1.png'
 import buttOil2 from '../../../../assets/ProductRendering/2.png'
 import buttOil3 from '../../../../assets/ProductRendering/3.png'
 import wireframe from '../../../../assets/ProductRendering/wireframe.png'
-import Cup from '../../../../assets/3D Projects/cup.png'
+import cup from '../../../../assets/3D Projects/cup.png'
 import Apple from '../../../../assets/3D Projects/apple.png'
 import Lykan from '../../../../assets/3D Projects/LykanHyperSport.png'
 import Lykan2 from '../../../../assets/3D Projects/LykanHyperSport2.png'
@@ -39,7 +39,7 @@ const DDesign = () => {
                 <div className="galleryPoster2">
                     <p>Food Poster</p>
                     <div className="posterGal2">
-                        <img src={Cup} alt="Burger 2" onClick={() => openModal(Cup)} />
+                        <img src={cup} alt="Burger 2" onClick={() => openModal(cup)} />
                         <img src={Apple} alt="Tempura Poster" onClick={() => openModal(Apple)} />
                         <img src={Lykan} alt="Royal Poster" onClick={() => openModal(Lykan)} />
                     </div>
