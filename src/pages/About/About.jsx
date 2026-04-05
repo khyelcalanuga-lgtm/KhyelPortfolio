@@ -1,10 +1,10 @@
 import React from 'react'
 import './About.css'
 import verifyIcon from '../../assets/verify-svgrepo-com.svg'
-import Instagram from '../../assets/SocialIcons/INSTAGRAM.SVG'
-import Facbook from '../../assets/SocialIcons/FACEBOOK.SVG'
-import LinkedIn from '../../assets/SocialIcons/LINKEDIN.SVG'
-import GitHub from '../../assets/SocialIcons/GITHUB.SVG'
+import Instagram from '../../assets/SocialIcons/Instagram.SVG'
+import Facbook from '../../assets/SocialIcons/Facebook.SVG'
+import LinkedIn from '../../assets/SocialIcons/LinkedIn.SVG'
+import GitHub from '../../assets/SocialIcons/Github.SVG'
 
 const About = () => {
     return (
