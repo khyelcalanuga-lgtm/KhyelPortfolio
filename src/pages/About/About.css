@@ -53,10 +53,9 @@
     margin-right: 0;
 }
 
-.profileSec .name {
+.profileSec .name2 {
     display: flex;
     align-items: center;
-
     gap: 10px;
 }
 
@@ -157,12 +156,13 @@
 
 .SocialsTitle img {
     width: 50px;
+    cursor: pointer;
 }
 
 .logos {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 35px;
     background-color: #1E1E1E;
     padding: 20px 40px;
     border-radius: 50px;
@@ -178,6 +178,7 @@
 }
 
 .logos img {
+    cursor: pointer;
     filter: brightness(0) invert(1);
     width: 30px;
 }
@@ -185,7 +186,7 @@
 @media (max-width: 768px) {
     .contents2 {
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 114px;
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;

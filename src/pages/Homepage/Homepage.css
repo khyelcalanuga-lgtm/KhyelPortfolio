@@ -322,7 +322,7 @@
 @media (max-width: 768px) {
 
     .profileSec .name {
-        padding-top: 20px;
+        padding-top: 26px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -332,7 +332,7 @@
 
     .contents {
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 114px;
         width: 95%;
     }
 

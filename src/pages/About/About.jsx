@@ -7,13 +7,17 @@ import LinkedIn from '../../assets/SocialIcons/linkedin.svg'
 import GitHub from '../../assets/SocialIcons/github.svg'
 
 const About = () => {
+    const openInNewTab = (url) => {
+        window.open(url, "_blank", "noreferrer");
+    };
+
     return (
         <div className="contents2">
             <div className="firstRowColumn2">
                 <div className="firstRowFixer">
                     <div className="firstRow2">
                         <div className="profileSec">
-                            <div className="name">
+                            <div className="name2">
                                 <p className="profileName">Khyel M. Calanuga</p>
                                 <img className="verifyIcon" src={verifyIcon} alt="Verified" />
                             </div>
@@ -33,10 +37,10 @@ const About = () => {
                             <div className="SocialsTitle">
                                 <p className="profileName">Socials:</p>
                                 <div className="logos">
-                                    <img src={Instagram} alt="Instagram" className='INSTA' />
-                                    <img src={Facbook} alt="Facebook" className='FACEBOOK' />
-                                    <img src={LinkedIn} alt="LinkedIn" className='LINKEDIN' />
-                                    <img src={GitHub} alt="GitHub" className='GITHUB' />
+                                    <img onClick={() => openInNewTab("https://www.instagram.com/kahyelll/")} src={Instagram} alt="Instagram" className='INSTA' />
+                                    <img onClick={() => openInNewTab("https://www.facebook.com/kiell.lly")} src={Facbook} alt="Facebook" className='FACEBOOK' />
+                                    <img onClick={() => openInNewTab("https://www.linkedin.com/in/khyel-calanuga-928167371/")} src={LinkedIn} alt="LinkedIn" className='LINKEDIN' />
+                                    <img onClick={() => openInNewTab("https://github.com/khyelcalanuga-lgtm")} src={GitHub} alt="GitHub" className='GITHUB' />
                                 </div>
                             </div>
                         </div>

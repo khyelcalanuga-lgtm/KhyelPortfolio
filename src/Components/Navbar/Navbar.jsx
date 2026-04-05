@@ -56,39 +56,41 @@ const Bar = () => {
     }, [activeIndex, isInitial])
 
     return (
-        <header className="header">
-            <nav className="navbar">
-                <div className="nav-links">
-                    <span className="nav-selection" aria-hidden="true" style={indicatorStyle} />
-                    {navItems.map((item, index) => (
-                        <button
-                            key={item.name}
-                            ref={(element) => {
-                                itemRefs.current[index] = element
-                            }}
-                            type="button"
-                            className={activeIndex === index ? 'is-active' : ''}
-                            aria-current={activeIndex === index ? 'page' : undefined}
-                            onClick={() => {
-                                if (item.name === 'Home') {
-                                    navigate(item.path)
-                                    document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
-                                } else {
-                                    navigate(item.path)
-                                }
-                            }}
-                        >
-                            {item.name}
-                        </button>
-                    ))}
-                </div>
-            </nav>
-            <div className="contact">
+        <>
+            <header className="header">
+                <nav className="navbar">
+                    <div className="nav-links">
+                        <span className="nav-selection" aria-hidden="true" style={indicatorStyle} />
+                        {navItems.map((item, index) => (
+                            <button
+                                key={item.name}
+                                ref={(element) => {
+                                    itemRefs.current[index] = element
+                                }}
+                                type="button"
+                                className={activeIndex === index ? 'is-active' : ''}
+                                aria-current={activeIndex === index ? 'page' : undefined}
+                                onClick={() => {
+                                    if (item.name === 'Home') {
+                                        navigate(item.path)
+                                        document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
+                                    } else {
+                                        navigate(item.path)
+                                    }
+                                }}
+                            >
+                                {item.name}
+                            </button>
+                        ))}
+                    </div>
+                </nav>
+            </header>
+            <div className="contact-floating">
                 <Link to="/" className="contactLogo" aria-label="Call">
                     <img src={phoneIcon} alt="Phone" />
                 </Link>
             </div>
-        </header>
+        </>
     )
 }
 
