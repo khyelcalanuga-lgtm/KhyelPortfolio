@@ -71,12 +71,7 @@ const Bar = () => {
                                 className={activeIndex === index ? 'is-active' : ''}
                                 aria-current={activeIndex === index ? 'page' : undefined}
                                 onClick={() => {
-                                    if (item.name === 'Home') {
-                                        navigate(item.path)
-                                        document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })
-                                    } else {
-                                        navigate(item.path)
-                                    }
+                                    navigate(item.path)
                                 }}
                             >
                                 {item.name}
