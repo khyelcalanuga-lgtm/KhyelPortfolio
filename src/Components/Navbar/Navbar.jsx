@@ -81,7 +81,7 @@ const Bar = () => {
                 </nav>
             </header>
             <div className="contact-floating">
-                <Link to="/" className="contactLogo" aria-label="Call">
+                <Link to="/contact" className="contactLogo" aria-label="Call">
                     <img src={phoneIcon} alt="Phone" />
                 </Link>
             </div>

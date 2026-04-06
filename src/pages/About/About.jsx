@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './About.css'
 import verifyIcon from '../../assets/verify-svgrepo-com.svg'
 import Instagram from '../../assets/SocialIcons/instagram.svg'
@@ -7,6 +8,7 @@ import LinkedIn from '../../assets/SocialIcons/linkedin.svg'
 import GitHub from '../../assets/SocialIcons/github.svg'
 
 const About = () => {
+    const navigate = useNavigate();
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
     };
@@ -28,7 +30,7 @@ const About = () => {
                                 <p>Marikina, National Capital Region, Philippines</p>
                             </div>
                             <div className="contactButton">
-                                <button type="button">Contact Me</button>
+                                <button type="button" onClick={() => navigate('/contact')}>Contact Me</button>
                             </div>
                         </div>
                     </div>
