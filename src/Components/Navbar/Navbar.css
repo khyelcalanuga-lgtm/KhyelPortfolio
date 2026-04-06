@@ -42,12 +42,12 @@
 .nav-selection {
     border-style: solid;
     border-width: 0px;
-    border-color: #555555;
+    border-color: #747474;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 999px;
-    background: #383838;
+    background: #454545;
     transition:
         transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
         width 0.55s cubic-bezier(0.22, 1, 0.36, 1),
