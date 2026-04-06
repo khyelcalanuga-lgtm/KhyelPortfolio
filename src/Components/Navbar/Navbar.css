@@ -18,7 +18,7 @@
     justify-content: center;
     padding: 10px 10px;
     background-color: rgb(30, 30, 30, 0.5);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
     border-radius: 100px;
     border-style: solid;
     border-width: 3px;
@@ -41,13 +41,13 @@
 
 .nav-selection {
     border-style: solid;
-    border-width: 1px;
-    border-color: #616161;
+    border-width: 0px;
+    border-color: #555555;
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 999px;
-    background: linear-gradient(180deg, #454545, #313131);
+    background: #383838;
     transition:
         transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
         width 0.55s cubic-bezier(0.22, 1, 0.36, 1),
