@@ -195,7 +195,7 @@
     .contact-secondRow2 {
         width: 100%;
         max-width: none;
-        padding: 50px;
+        padding: 50px 50px;
         box-sizing: border-box;
     }
 
@@ -207,5 +207,11 @@
 
     .contact-firstRow2 p {
         font-size: 24px;
+    }
+
+    .contact-firstColumn,
+    .contact-secondColumn,
+    .contact-topRow {
+        gap: 10px;
     }
 }

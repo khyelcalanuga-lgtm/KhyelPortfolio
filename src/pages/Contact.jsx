@@ -77,7 +77,7 @@ const Contact = () => {
                                 <input type="tel" placeholder='Mobile Number' name="phone" />
                                 <input type="email" placeholder='Email' name="email" required />
                             </div>
-                            <textarea placeholder="Message" rows="10" name="message" required></textarea>
+                            <textarea placeholder="Message" rows="5" name="message" required></textarea>
                             <div className="contact-contactButton">
                                 <button type="submit">Send Message</button>
                             </div>
