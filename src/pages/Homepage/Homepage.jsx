@@ -213,7 +213,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="thirdRowSecond">
-                    <p><Link to="/">Home</Link> · <Link to="/about">About</Link> · <Link to="/portfolio">Portfolio</Link> · <Link to="/contact">Contact</Link> · <Link to="/products">Products</Link></p>
+                    <p><Link to="/">Home</Link> · <Link to="/about">About</Link> · <Link to="/portfolio">Portfolio</Link> · <Link to="/products">Products</Link> · <Link to="/contact">Contact</Link></p>
                 </div>
             </div>
 

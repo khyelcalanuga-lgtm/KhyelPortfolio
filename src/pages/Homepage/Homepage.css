@@ -179,7 +179,7 @@
     border-width: 1px;
     border-color: #383838;
     outline: 0;
-    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0px 10px rgb(0, 0, 0, 0.4);
     cursor: pointer;
     transition: background-color 0.28s ease, transform 0.28s ease;
 }
@@ -262,7 +262,6 @@
     flex-direction: column;
     gap: 26px;
     flex: 1;
-    /* Occupy less space than the first column */
     width: 100%;
 }
 
@@ -299,7 +298,6 @@
 .thirdRowSecond {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .thirdRowSecond p a {
