@@ -80,7 +80,7 @@
 
 .profileSec .location p {
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
     padding-bottom: 26px;
 }
 
@@ -244,17 +244,17 @@
 
 .companyname p {
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .date p {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .location p {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .secondColumn {
@@ -291,7 +291,7 @@
 
 .titleDescription p {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 200;
 
 }
 
