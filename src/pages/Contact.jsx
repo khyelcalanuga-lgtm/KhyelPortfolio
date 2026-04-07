@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Contact.css'
 
 const Contact = () => {
     const navigate = useNavigate();
     const [result, setResult] = useState("");
+
+    useEffect(() => {
+        document.title = "Contact | Khyel Calanuga";
+    }, []);
 
     const onSubmit = async (event) => {
         event.preventDefault();

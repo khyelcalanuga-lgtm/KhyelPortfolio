@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="foot">
-            <p> © KHYEL CALANUGA </p>
+            <p> ©KHYEL CALANUGA </p>
         </div>
     )
 }

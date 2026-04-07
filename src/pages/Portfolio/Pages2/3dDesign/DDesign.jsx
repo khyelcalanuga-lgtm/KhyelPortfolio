@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../globsPort.css'
 import bodyScrub from '../../../../assets/ProductRendering/FinalRenderKhyels.png'
 import buttOil1 from '../../../../assets/ProductRendering/1.png'
@@ -13,6 +13,10 @@ import Wine from '../../../../assets/3D-projects/Wine.png'
 
 const DDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
+
+    useEffect(() => {
+        document.title = "3D Design | Portfolio";
+    }, []);
 
     const openModal = (imgSrc) => {
         setSelectedImg(imgSrc);

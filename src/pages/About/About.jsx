@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './About.css'
 import verifyIcon from '../../assets/verify-svgrepo-com.svg'
@@ -9,6 +9,11 @@ import GitHub from '../../assets/SocialIcons/github.svg'
 
 const About = () => {
     const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = "About | Khyel Calanuga";
+    }, []);
+
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
     };

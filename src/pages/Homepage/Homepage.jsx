@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './Homepage.css'
 import profilePic from '../../assets/profilePicture.png'
@@ -6,6 +6,10 @@ import verifyIcon from '../../assets/verify-svgrepo-com.svg'
 
 const Hero = () => {
     const navigate = useNavigate();
+
+    useEffect(() => {
+        document.title = "Khyel Calanuga";
+    }, []);
 
     return (
         <div className="contents" id="home">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../globsPort.css'
 import StangerThings from '../../../../assets/StangerTHings.png'
 import LetoAtreides from '../../../../assets/LetoAtreides.png'
@@ -15,6 +15,10 @@ import Edge from '../../../../assets/EdgesPoster6.png'
 
 const GraphicDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
+
+    useEffect(() => {
+        document.title = "Graphic Design | Portfolio";
+    }, []);
 
     const openModal = (imgSrc) => {
         setSelectedImg(imgSrc);

@@ -179,7 +179,7 @@
     border-width: 2px;
     border-color: #383838;
     outline: 0;
-    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color 0.28s ease, transform 0.28s ease;
 }
@@ -338,7 +338,6 @@
 
     .contents img {
         margin-right: 0;
-        margin-bottom: 20px;
         width: 180px;
         height: 180px;
     }
@@ -366,5 +365,6 @@
 
     .profileSec .name {
         justify-content: center;
+        padding-top: 26px;
     }
 }
