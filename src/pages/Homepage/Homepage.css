@@ -332,7 +332,7 @@
 
     .firstRow {
         flex-direction: column;
-        padding: 40px;
+        padding: 50px;
         text-align: center;
     }
 
@@ -352,7 +352,7 @@
     .fifthRow,
     .firstRowSecond,
     .secondRowSecond {
-        padding: 40px;
+        padding: 50px;
     }
 
     .categoryBut {
