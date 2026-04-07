@@ -34,7 +34,7 @@ const Hero = () => {
                         <p>Who am I?</p>
                     </div>
                     <div className="Descrips">
-                        <p className>A passionate second year BSIT student and experienced freelance Graphic and 3D Designer. Combining a strong foundation in information technology with advanced design skills to deliver comprehensive creative solutions. Dedicated to continuous learning and leveraging the latest design software to produce high-quality work for diverse clients.</p>
+                        <p>A passionate second year BSIT student and experienced freelance Graphic and 3D Designer. Combining a strong foundation in information technology with advanced design skills to deliver comprehensive creative solutions. Dedicated to continuous learning and leveraging the latest design software to produce high-quality work for diverse clients.</p>
                     </div>
                 </div>
                 <div className="thirdRow">
@@ -46,7 +46,7 @@ const Hero = () => {
                     </div>
                     <div className="h1ChooseDes">
                         <p>
-                            - I bridge creativity and technology  a BSIT student and freelance designer who delivers designs that are visually striking and technically sound.
+                            - I bridge creativity and technology as a BSIT student and freelance designer who delivers designs that are visually striking and technically sound.
                         </p>
                     </div>
                     <div className="h1Choose">
@@ -54,7 +54,7 @@ const Hero = () => {
                     </div>
                     <div className="h1ChooseDes">
                         <p>
-                            - Professional-grade graphic and 3D design work without the big agency markup.Every project gets my full attention and dedication.
+                            - Professional-grade graphic and 3D design work without the big agency markup. Every project gets my full attention and dedication.
                         </p>
                     </div>
                     <div className="h1Choose">
@@ -117,9 +117,9 @@ const Hero = () => {
                     </div>
                     <div className="freelanceGraphicD">
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>Freelance Graphic Designer | 3D Graphic Designer | Web Developer</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="companyname">
                             <p>Yorik Production · Freelance</p>
@@ -134,9 +134,9 @@ const Hero = () => {
                     <hr />
                     <div className="customerService">
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>Customer Service Representative</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="companyname">
                             <p>Alorica ∙ Fulltime</p>
@@ -151,9 +151,9 @@ const Hero = () => {
                     <hr />
                     <div className="brandMarshall">
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>Brand Marshall</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="companyname">
                             <p>Sm Supermalls ∙ Fulltime</p>
@@ -168,40 +168,40 @@ const Hero = () => {
                 </div>
                 <div className="secondRowSecond">
                     <div className="titleSec">
-                        <p className="titleTooRow">
+                        <div className="titleTooRow">
                             <p>Skills</p>
-                        </p>
+                        </div>
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>Graphic Design</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="titleDescription">
                             <p>- Logo design, brand identity, typography, layout design, social media graphics, print materials (flyers, brochures, business cards), packaging design, photo editing & retouching, color theory, composition</p>
                         </div>
                         <hr />
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>3D Design</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="titleDescription">
                             <p>- 3D modeling, texturing & shading, lighting setup, rendering (photorealistic/stylized), product visualization, character modeling, environment design, basic animation (rigging/movement), wireframing & clay renders</p>
                         </div>
                         <hr />
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>UI/UX (Figma)</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="titleDescription">
                             <p>- Wireframing, prototyping, user flow design, mobile/web interface design</p>
                         </div>
                         <hr />
                         <div className="titleSec">
-                            <p className="titleToo">
+                            <div className="titleToo">
                                 <p>Web Developing</p>
-                            </p>
+                            </div>
                         </div>
                         <div className="titleDescription">
                             <p>- Frontend development uses HTML to structure content, CSS to handle styling and responsive layouts, JavaScript to add interactivity, and frameworks like React to build dynamic, reusable user interfaces.</p>
