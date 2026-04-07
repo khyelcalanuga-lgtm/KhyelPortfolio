@@ -10,6 +10,7 @@ import Apple from '../../../../assets/3D-projects/apple.png'
 import Lykan from '../../../../assets/3D-projects/LykanHyperSport.png'
 import Lykan2 from '../../../../assets/3D-projects/LykanHyperSport2.png'
 import Wine from '../../../../assets/3D-projects/Wine.png'
+import Untitled2 from '../../../../assets/3D-projects/Untitled2.png'
 
 const DDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
@@ -50,6 +51,7 @@ const DDesign = () => {
                     <div className="posterGal3">
                         <img src={Lykan2} alt="Burger " onClick={() => openModal(Lykan2)} />
                         <img src={Wine} alt="Tempura Poster" onClick={() => openModal(Wine)} />
+                        <img src={Untitled2} alt="Tempura Poster" onClick={() => openModal(Untitled2)} />
                     </div>
                 </div>
             </div>

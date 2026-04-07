@@ -1,9 +1,105 @@
-.products {
-    padding-top: 136px;
+.TemplatesContainer {
+    width: 85%;
+    max-width: 1620px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 16px;
     padding-bottom: 90px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.firstRowTemplate {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 26px;
 }
 
 .products p {
     font-size: 32px;
+}
+
+.Item1 {
+    background-color: #1E1E1E;
+    padding: 26px;
+    border-radius: 50px;
+    box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #383838;
+}
+
+.Item1 img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 333 / 333;
+    border-radius: 25px;
+    object-fit: cover;
+    min-width: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.itemTitle p {
+    font-size: 20px;
+    color: white;
+}
+
+.itemOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.button {
+    background-color: #2D2D2D;
+    color: white;
+    border: 1px solid #383838;
+    width: 46px;
+    height: 46px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4b4b4b;
+    border: 1px solid #4b4b4b;
+    color: #ffffff;
+}
+
+.button .ArrowBut {
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 768px) {
+    .TemplatesContainer {
+        width: 95%;
+        padding-top: 6px;
+    }
+
+    .firstRowTemplate {
+        flex-direction: column;
+        gap: 15.5px;
+    }
+
+    .Item1 {
+        padding: 26px;
+    }
+
+    div[style*="opacity: 0"] {
+        display: none;
+    }
+
+    .itemOptions {
+        padding-bottom: 10px;
+    }
 }

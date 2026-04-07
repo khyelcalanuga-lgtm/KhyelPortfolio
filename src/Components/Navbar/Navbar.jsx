@@ -7,10 +7,10 @@ const Bar = () => {
     const navigate = useNavigate()
     const location = useLocation()
     const navItems = [
-        { name: 'HOME', path: '/' },
-        { name: 'ABOUT', path: '/about' },
-        { name: 'PORTFOLIO', path: '/portfolio' },
-        { name: 'PRODUCTS', path: '/products' }
+        { name: 'Home', path: '/' },
+        { name: 'About', path: '/about' },
+        { name: 'Portfolio', path: '/portfolio' },
+        { name: 'Products', path: '/products' }
     ]
 
     // Derive activeIndex during render to avoid state-update lag

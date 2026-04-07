@@ -1,22 +1,20 @@
 import React, { useLayoutEffect, useRef, useState, useEffect } from 'react'
 import { useNavigate, Link, useLocation } from 'react-router-dom'
-import './navBarfor.css'
+import './navBarforProducts.css'
 
 
 const navItems = [
-    { name: 'Graphic Design', path: '/portfolio/GraphicDesign' },
-    { name: '3D Design', path: '/portfolio/3dDesign' },
-    { name: 'UI/UX Design', path: '/portfolio/UI-UX' },
-    { name: 'Websites', path: '/portfolio/Websites' },
+    { name: 'Templates', path: '/products/templates' },
+    { name: '3D Model', path: '/products/3dmodels' },
 ]
 
-const NavBarForPortfolio = () => {
+const NavBarForProducts = () => {
     const navigate = useNavigate()
     const location = useLocation()
 
     // Derive activeIndex during render to avoid state-update lag
     const activeIndex = navItems.findIndex(item => location.pathname.includes(item.path))
-    
+
     const [indicatorStyle, setIndicatorStyle] = useState({ opacity: 0 })
     const [isInitial, setIsInitial] = useState(true)
     const itemRefs = useRef([])
@@ -87,4 +85,4 @@ const NavBarForPortfolio = () => {
     )
 }
 
-export default NavBarForPortfolio
+export default NavBarForProducts
