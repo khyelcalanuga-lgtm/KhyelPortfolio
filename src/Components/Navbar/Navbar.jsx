@@ -33,15 +33,19 @@ const Bar = () => {
         const updateIndicator = () => {
             const index = activeIndex === -1 ? 0 : activeIndex
             const activeItem = itemRefs.current[index]
+            const container = activeItem?.parentElement
 
-            if (!activeItem) {
+            if (!activeItem || !container) {
                 return
             }
 
+            const itemRect = activeItem.getBoundingClientRect()
+            const containerRect = container.getBoundingClientRect()
+
             setIndicatorStyle({
-                width: `${activeItem.offsetWidth}px`,
-                height: `${activeItem.offsetHeight}px`,
-                transform: `translate(${activeItem.offsetLeft}px, ${activeItem.offsetTop}px)`,
+                width: `${itemRect.width}px`,
+                height: `${itemRect.height}px`,
+                transform: `translate(${itemRect.left - containerRect.left}px, ${itemRect.top - containerRect.top}px)`,
                 transition: isInitial ? 'none' : undefined,
                 opacity: activeIndex === -1 ? 0 : 1
             })
@@ -49,6 +53,10 @@ const Bar = () => {
 
         updateIndicator()
         window.addEventListener('resize', updateIndicator)
+
+        if (document.fonts) {
+            document.fonts.ready.then(updateIndicator)
+        }
 
         return () => {
             window.removeEventListener('resize', updateIndicator)

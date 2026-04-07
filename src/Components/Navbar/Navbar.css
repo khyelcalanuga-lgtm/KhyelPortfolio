@@ -50,16 +50,10 @@
     background: #454545;
     transition:
         transform 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        width 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+        height 0.55s cubic-bezier(0.22, 1, 0.36, 1),
         box-shadow 0.35s ease;
     pointer-events: none;
-}
-
-.nav-selection::before {
-    content: '';
-    position: absolute;
-    inset: 1px;
-    border-radius: inherit;
-
 }
 
 .nav-links button {
@@ -67,7 +61,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 15px 50px;
+    padding: 20px 50px;
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -75,6 +69,7 @@
     color: #ffffff;
     font-size: 20px;
     font-weight: 250;
+    line-height: 1;
     border-radius: 999px;
     background: transparent;
     z-index: 1;
