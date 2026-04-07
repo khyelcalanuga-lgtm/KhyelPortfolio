@@ -27,7 +27,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
@@ -43,7 +43,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
@@ -87,7 +87,7 @@
 .contactButton button {
     background-color: #2D2D2D;
     color: white;
-    border: 2px solid #383838;
+    border: 1px solid #383838;
     padding: 15px 40px;
     border-radius: 50px;
     font-size: 16px;
@@ -98,7 +98,7 @@
 
 .contactButton button:hover {
     background-color: #4b4b4b;
-    border: 2px solid #4b4b4b;
+    border: 1px solid #4b4b4b;
     color: #ffffff;
 }
 
@@ -120,7 +120,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
@@ -147,7 +147,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
@@ -176,7 +176,7 @@
     color: white;
     background-color: #1E1E1E;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
     outline: 0;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.1);
@@ -197,7 +197,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
@@ -213,7 +213,7 @@
     color: white;
     background-color: #1E1E1E;
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
     outline: 0;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
@@ -229,7 +229,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
@@ -281,7 +281,7 @@
     border-radius: 50px;
     box-shadow: 0 0px 20px rgb(0, 0, 0, 0.5);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #383838;
 }
 
