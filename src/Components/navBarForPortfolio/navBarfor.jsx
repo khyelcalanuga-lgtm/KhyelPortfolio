@@ -7,7 +7,7 @@ import arrowIcon from '../../assets/arrow.svg'
 const navItems = [
     { name: 'Graphic Design', path: '/portfolio/GraphicDesign' },
     { name: '3D Design', path: '/portfolio/3dDesign' },
-    { name: 'Websites | UI/UX', path: '/portfolio/Websites' },
+    { name: 'Website | UI/UX', path: '/portfolio/Websites' },
 ]
 
 const NavBarForPortfolio = () => {
