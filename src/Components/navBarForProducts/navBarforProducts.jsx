@@ -6,7 +6,7 @@ import arrowIcon from '../../assets/arrow.svg'
 
 const navItems = [
     { name: 'Templates', path: '/products/templates' },
-    { name: '3D Model', path: '/products/3dmodels' },
+    { name: '3D Models', path: '/products/3dmodels' },
 ]
 
 const NavBarForProducts = () => {

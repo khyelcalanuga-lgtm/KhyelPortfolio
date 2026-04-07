@@ -160,6 +160,7 @@
     .contentsGD {
         width: 95%;
         padding-top: 6px;
+        gap: 15.5px;
     }
 
     .posterGal,
@@ -174,6 +175,12 @@
         padding: 20px;
         border-radius: 50px;
         text-align: center;
+        gap: 15.5;
+
+    }
+
+    .gallerFixer {
+        gap: 15.5px;
     }
 
     /* Hide placeholder images on mobile */

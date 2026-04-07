@@ -31,7 +31,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p >Tempura Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -45,7 +45,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Combo Burger Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -59,7 +59,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Burger Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -73,7 +73,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Java Chip Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -89,7 +89,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p >Royal Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -103,7 +103,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Strawberry Milkshake Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -117,7 +117,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Burger Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">
@@ -131,7 +131,7 @@ const Templates = () => {
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Java Chip Poster</p>
-                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '100' }}>.PSD</p>
+                            <p style={{ color: '#ffffff', fontSize: '16px', fontWeight: '200' }}>.PSD</p>
                         </div>
                         <div className="button">
                             <div className="ArrowBut">

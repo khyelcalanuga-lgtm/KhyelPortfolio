@@ -84,7 +84,7 @@
 
 .aboutMeDes p {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .fixer {
@@ -190,6 +190,7 @@
         width: 100%;
         padding-left: 10px;
         padding-right: 10px;
+        gap: 15.5px;
     }
 
     .profileSec .name2 {
@@ -206,6 +207,7 @@
     .fixer {
         flex-direction: column;
         width: 100%;
+        gap: 15.5px;
     }
 
     .firstRow2,
