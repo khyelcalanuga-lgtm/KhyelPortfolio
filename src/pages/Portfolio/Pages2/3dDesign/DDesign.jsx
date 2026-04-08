@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import '../globsPort.css'
 import bodyScrub from '../../../../assets/ProductRendering/FinalRenderKhyels.png'
+import bodyScrub2 from '../../../../assets/ProductRendering/FinalRenderKhyels(SOlid).png'
 import buttOil1 from '../../../../assets/ProductRendering/1.png'
 import buttOil2 from '../../../../assets/ProductRendering/2.png'
 import buttOil3 from '../../../../assets/ProductRendering/3.png'
@@ -38,6 +39,7 @@ const DDesign = () => {
                     </div>
                     <div className="posterGal3">
                         <img src={buttOil3} alt="Burger " onClick={() => openModal(buttOil3)} />
+                        <img src={bodyScrub2} alt="Tempura Poster" onClick={() => openModal(bodyScrub2)} />
                         <img src={wireframe} alt="Tempura Poster" onClick={() => openModal(wireframe)} />
                     </div>
                 </div>
