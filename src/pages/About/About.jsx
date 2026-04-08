@@ -6,7 +6,7 @@ import Instagram from '../../assets/SocialIcons/instagram.svg'
 import Facbook from '../../assets/SocialIcons/facebook.svg'
 import LinkedIn from '../../assets/SocialIcons/linkedin.svg'
 import GitHub from '../../assets/SocialIcons/github.svg'
-import CV from '../../assets/KhyelCalanugaCV.docx'
+import CV from '../../assets/KhyelCalanugaCV.pdf'
 
 const About = () => {
     const navigate = useNavigate();
