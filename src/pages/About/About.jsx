@@ -6,6 +6,7 @@ import Instagram from '../../assets/SocialIcons/instagram.svg'
 import Facbook from '../../assets/SocialIcons/facebook.svg'
 import LinkedIn from '../../assets/SocialIcons/linkedin.svg'
 import GitHub from '../../assets/SocialIcons/github.svg'
+import CV from '../../assets/KhyelCalanugaCV.docx'
 
 const About = () => {
     const navigate = useNavigate();
@@ -62,7 +63,9 @@ const About = () => {
                     <div className="aboutMeDes">
                         <p>A passionate second year BSIT student and experienced freelance Graphic Designer, 3D Designer, and Web Developer, bridging technical expertise and creative vision to deliver comprehensive design solutions. Combines a strong foundation in information technology with self taught skills in 2D, 3D, and web development to create visually striking, technically sound, and optimized work from branding and 3D models to responsive websites and web applications. Committed to continuous learning and mastering the latest design software, rendering engines, frontend frameworks, and modern web workflows to exceed client expectations.</p>
                         <div className="contactButton">
-                            <button type="button">Download CV</button>
+                            <a href={CV} download="KhyelCalanugaCV" target='_blank'>
+                                <button type="button">Download CV</button>
+                            </a>
                         </div>
                     </div>
                 </div>
