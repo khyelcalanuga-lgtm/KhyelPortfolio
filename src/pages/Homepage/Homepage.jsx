@@ -90,10 +90,7 @@ const Hero = () => {
                             <button type="button" onClick={() => navigate('/portfolio/3dDesign')}>3D Design</button>
                         </div>
                         <div className="graphBut">
-                            <button type="button" onClick={() => navigate('/portfolio/UI-UX')}>Figma</button>
-                        </div>
-                        <div className="graphBut">
-                            <button type="button" onClick={() => navigate('/portfolio/Websites')}>Website</button>
+                            <button type="button" onClick={() => navigate('/portfolio/Websites')}>Website | UI/UX</button>
                         </div>
                     </div>
                 </div>

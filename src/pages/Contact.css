@@ -189,13 +189,14 @@
     .contact-fixer {
         flex-direction: column;
         width: 100%;
+
     }
 
     .contact-firstRow2,
     .contact-secondRow2 {
         width: 100%;
         max-width: none;
-        padding: 50px 50px;
+        padding: 50px 25px;
         box-sizing: border-box;
     }
 
@@ -213,5 +214,10 @@
     .contact-secondColumn,
     .contact-topRow {
         gap: 10px;
+    }
+
+    .contact-topRow textarea,
+    .contact-topRow input {
+        font-size: 16px;
     }
 }
