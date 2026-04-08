@@ -8,6 +8,7 @@ import Products from "./pages/Products/Products";
 import Contact from "./pages/Contact";
 import Footer from "./Components/footer/Footer";
 import ScrollRestoration from "./Components/ScrollRestoration";
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <Analytics />
     </div>
   )
 }

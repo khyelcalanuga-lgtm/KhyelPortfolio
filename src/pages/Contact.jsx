@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
 import './Contact.css'
 
 const Contact = () => {
-    const navigate = useNavigate();
     const [result, setResult] = useState("");
 
     useEffect(() => {
