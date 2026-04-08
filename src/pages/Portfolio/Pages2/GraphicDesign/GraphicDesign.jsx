@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import '../globsPort.css'
 import StangerThings from '../../../../assets/StangerTHings.png'
-import LetoAtreides from '../../../../assets/LetoAtreides.png'
 import Burger2 from '../../../../assets/FoodPoster/Burger2.png'
 import Tempura from '../../../../assets/FoodPoster/Tempura.png'
 import Royal from '../../../../assets/FoodPoster/Royal.png'
