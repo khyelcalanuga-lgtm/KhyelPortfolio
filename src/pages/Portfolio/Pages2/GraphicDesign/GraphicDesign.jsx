@@ -35,8 +35,8 @@ const GraphicDesign = () => {
                     <p>Movie Poster</p>
                     <div className="posterGal">
                         <img src={StangerThings} alt="Stranger Things Poster" onClick={() => openModal(StangerThings)} />
-                        <img src={LetoAtreides} alt="Stranger Things Poster" onClick={() => openModal(LetoAtreides)} />
                         <img src={Edge} alt="Stranger Things Poster" onClick={() => openModal(Edge)} />
+                        <img style={{ opacity: '0', cursor: 'default' }} src={Edge} alt="Stranger Things Poster" />
                     </div>
                 </div>
                 <div className="galleryPoster2">
