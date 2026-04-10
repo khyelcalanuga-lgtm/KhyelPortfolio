@@ -11,6 +11,7 @@ import clairo from '../../../../assets/Illustration/clairo.png'
 import rndm from '../../../../assets/Illustration/rndm.png'
 import rrr from '../../../../assets/Illustration/rrrr.png'
 import Edge from '../../../../assets/EdgesPoster6.png'
+import FightClub from '../../../../assets/FightClub.png'
 
 const GraphicDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
@@ -33,8 +34,8 @@ const GraphicDesign = () => {
                 <div className="galleryPoster">
                     <p>Movie Poster</p>
                     <div className="posterGal">
+                        <img src={FightClub} alt="Stranger Things Poster" onClick={() => openModal(FightClub)} />
                         <img src={StangerThings} alt="Stranger Things Poster" onClick={() => openModal(StangerThings)} />
-                        <img src={Edge} alt="Stranger Things Poster" onClick={() => openModal(Edge)} />
                         <img style={{ opacity: '0', cursor: 'default' }} src={Edge} alt="Stranger Things Poster" />
                     </div>
                 </div>
