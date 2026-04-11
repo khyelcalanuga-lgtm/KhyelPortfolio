@@ -181,10 +181,17 @@
 
     .gallerFixer {
         gap: 15.5px;
+
+    }
+
+    .galleryPoster p,
+    .galleryPoster2 p {
+        padding-bottom: 16px;
     }
 
     /* Hide placeholder images on mobile */
     img[style*="opacity: 0"] {
         display: none;
     }
+
 }

@@ -12,6 +12,7 @@ import rndm from '../../../../assets/Illustration/rndm.png'
 import rrr from '../../../../assets/Illustration/rrrr.png'
 import Edge from '../../../../assets/EdgesPoster6.png'
 import FightClub from '../../../../assets/FightClub.png'
+import MoonKnight from '../../../../assets/MoonKnight.png'
 
 const GraphicDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
@@ -32,11 +33,12 @@ const GraphicDesign = () => {
         <div className="contentsGD">
             <div className="gallerFixer">
                 <div className="galleryPoster">
-                    <p>Movie Poster</p>
+                    <p>Poster</p>
                     <div className="posterGal">
+                        <img src={MoonKnight} alt="Stranger Things Poster" onClick={() => openModal(MoonKnight)} />
                         <img src={FightClub} alt="Stranger Things Poster" onClick={() => openModal(FightClub)} />
                         <img src={StangerThings} alt="Stranger Things Poster" onClick={() => openModal(StangerThings)} />
-                        <img style={{ opacity: '0', cursor: 'default' }} src={Edge} alt="Stranger Things Poster" />
+
                     </div>
                 </div>
                 <div className="galleryPoster2">
