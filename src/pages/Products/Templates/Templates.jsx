@@ -113,7 +113,7 @@ const Templates = () => {
                     </div>
                 </div>
                 <div style={{ opacity: '0' }} className="Item1">
-                    <img src={burger2} alt="Stranger Things Poster" onClick={() => openModal()} />
+                    <img style={{ cursor: 'default' }} src={burger2} alt="Stranger Things Poster" onClick={() => openModal()} />
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Burger Poster</p>
@@ -127,7 +127,7 @@ const Templates = () => {
                     </div>
                 </div>
                 <div style={{ opacity: '0' }} className="Item1">
-                    <img src={prafJava} alt="Stranger Things Poster" onClick={() => openModal()} />
+                    <img style={{ cursor: 'default' }} src={prafJava} alt="Stranger Things Poster" onClick={() => openModal()} />
                     <div className="itemOptions">
                         <div className="itemTitle">
                             <p>Java Chip Poster</p>
