@@ -10,9 +10,10 @@ import MilkShake from '../../../../assets/FoodPoster/StawBMilk.png'
 import clairo from '../../../../assets/Illustration/clairo.png'
 import rndm from '../../../../assets/Illustration/rndm.png'
 import rrr from '../../../../assets/Illustration/rrrr.png'
-import Edge from '../../../../assets/EdgesPoster6.png'
 import FightClub from '../../../../assets/FightClub.png'
 import MoonKnight from '../../../../assets/MoonKnight.png'
+import chokoCake from '../../../../assets/FoodPoster/Chococake.png'
+
 
 const GraphicDesign = () => {
     const [selectedImg, setSelectedImg] = useState(null);
@@ -52,6 +53,11 @@ const GraphicDesign = () => {
                         <img src={Burger} alt="Burger " onClick={() => openModal(Burger)} />
                         <img src={Java} alt="Tempura Poster" onClick={() => openModal(Java)} />
                         <img src={MilkShake} alt="Royal Poster" onClick={() => openModal(MilkShake)} />
+                    </div>
+                    <div className="posterGal4">
+                        <img src={chokoCake} alt="Burger " onClick={() => openModal(chokoCake)} />
+                        <img style={{ opacity: '0', cursor: 'default' }} src={Java} alt="Tempura Poster" onClick={() => openModal()} />
+                        <img style={{ opacity: '0', cursor: 'default' }} src={MilkShake} alt="Royal Poster" onClick={() => openModal()} />
                     </div>
                 </div>
                 <div className="galleryPoster2">
