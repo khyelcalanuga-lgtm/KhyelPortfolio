@@ -13,6 +13,7 @@ import rrr from '../../../../assets/Illustration/rrrr.png'
 import FightClub from '../../../../assets/FightClub.png'
 import MoonKnight from '../../../../assets/MoonKnight.png'
 import chokoCake from '../../../../assets/FoodPoster/Chococake.png'
+import rndm3 from '../../../../assets/Illustration/rndm3.png'
 
 
 const GraphicDesign = () => {
@@ -66,6 +67,11 @@ const GraphicDesign = () => {
                         <img src={clairo} alt="Burger 2" onClick={() => openModal(clairo)} />
                         <img src={rndm} alt="Tempura Poster" onClick={() => openModal(rndm)} />
                         <img src={rrr} alt="Royal Poster" onClick={() => openModal(rrr)} />
+                    </div>
+                    <div className="posterGal2">
+                        <img src={rndm3} alt="Burger 2" onClick={() => openModal(rndm3)} />
+                        <img style={{ opacity: '0', cursor: 'default' }} src={rndm} alt="Tempura Poster" onClick={() => openModal()} />
+                        <img style={{ opacity: '0', cursor: 'default' }} src={rrr} alt="Royal Poster" onClick={() => openModal()} />
                     </div>
                 </div>
             </div>
